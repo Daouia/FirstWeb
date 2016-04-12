@@ -1,0 +1,119 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background: #FFF;
+}
+
+#if {
+	margin-left: 400px;
+}
+
+div {
+	background-color: #FFF;
+	text-align: center;
+	border: solid 1px #000;
+	width: 500px;
+}
+
+span {
+	display: inline;
+	color: #ff8040;
+}
+
+#menu1,#menu2,#connexion {
+	margin: 80px 500px 15px 550px;
+	padding: 10px;
+	width: 700px;
+	border: solid 1px #ffb366;
+}
+
+
+
+legend {
+	padding: 0px 3px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+label {
+	width: 160px;
+	display: inline-block;
+	vertical-align: center;
+	margin: 6px;
+}
+
+input[type=text]{
+	vertical-align: center;
+	margin-bottom: 5px;
+	border :none;
+	background-color: #FFF;
+	height: 25px;
+	width:250px;
+	border-bottom: 2px solid #F00;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 200px;
+	background-color:#ffb366;
+	border: 1px #ff5050;
+	box-shadow: 1px 1px 0px #aaa;
+	width: 200px;
+}
+input[type=text]:hover {
+	border-bottom: 2px solid #ffb366;
+	
+}
+input[type=text]:active{
+	background-color: 2px solid #aaa;
+	
+}
+
+input[type=submit]:hover {
+	background-color: #f25f5f;
+	color:white;
+}
+#boutton:hover {
+	background-color: #f25f5f;
+	color:white;
+}
+table {
+	vertical-align: center;
+	width: 800px;
+	border: 1px solid #f25f5f;
+}
+
+td {
+	width: 200px;
+	text-align: center;
+	border: 1px solid #f25f5f;
+}
+
+tr {
+	border: 1px solid #f25f5f;
+}
+th{
+	background-color: #f25f5f;
+	color:white;
+}
+
+#boutton {
+	margin-left: 100px;
+	height: 25px;
+	width: 200px;
+	background: #ffb366;
+	text-align: center;
+	text-shadow: 1px 1px 12px #555;
+	vertical-align: middle;
+	border-radius: 30px/40px;
+	box-shadow: 0 0 10px #555;
+}
+
+#connecter, #inscrire {
+	margin-left: 90px;
+	width: 100px;
+}
+
+#nbId {
+	color: blue;
+}
